@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  color: black;
+  padding: 100px;
+  
+}
+
+.food {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 5px;
+  width: 950px;
+  height: 900px;
+  padding: 50px;
+}
+
+.imagery {
+  display: flex;
+  gap: 75px;
+  padding-bottom: 50px;
+  
+}
+.gold {
+  width: 125px;
+  height: 130px;
+  border-radius: 5px;
+  display: block;
+}
+
+
+button {
+  position: relative;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 12px;
+  border: 2px solid red;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-radius: 67px;
+  font-size: x-small;
+  width: auto;
+  /* transition: background 0.3s ease, color 0.3s ease; */
+}
+
+
+
+button:hover {
+    background-color: rgba(255, 102, 0, 1);
+}
+
+.joy {
+  font-size: xx-small;
+  
+}
+
+.henry {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  
+}
+.ify {
+  color: red;
+}
+
+
+.hy {
+  display: flex;
+}
+
+
+.container {
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  padding: 50px;
+  border: 15px;
+  margin-top: 40px;
+}
+
+.red {
+  color: orangered;
+}
+
+.let {
+  justify-content: center;
+}
+
+
