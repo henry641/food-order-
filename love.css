@@ -1,47 +1,55 @@
 body {
   background-color: white;
   color: black;
-  padding: 100px;
+  padding: 10px;
+  font-family: "poppins",sans-serif;
   
 }
 
 .food {
   background-color: white;
-  margin-top: 50px;
-  margin-left: 50px;
+  margin-top:  50px;
+  margin-left: 50px; 
   border-radius: 5px;
-  width: 950px;
+  width: 9500px;
   height: 900px;
-  padding: 50px;
+  padding: 10px;
 }
 
 .imagery {
   display: flex;
-  gap: 75px;
-  padding-bottom: 50px;
-  
+  gap: 30px;
+  /* padding-bottom: 50px; */
+  /* max-width: 500px; */
 }
 .gold {
-  width: 125px;
-  height: 130px;
-  border-radius: 5px;
+  width: 200px;
+  height: 175px;
+  border-radius: 10px;
   display: block;
 }
 
 
 button {
   position: relative;
-  bottom: 15px;
+  bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
   padding: 5px 12px;
-  border: 2px solid red;
+  border: 2px light red;
   background-color: white;
   color: black;
   cursor: pointer;
-  border-radius: 67px;
+  border-radius: 50px;
   font-size: x-small;
-  width: auto;
+  width: 150px;
+  
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  height: 35px;
+  font-size: small;
+  
   /* transition: background 0.3s ease, color 0.3s ease; */
 }
 
@@ -52,17 +60,23 @@ button:hover {
 }
 
 .joy {
-  font-size: xx-small;
+  font-size: small;
+  /* text-align: left; */
+  position: relative;
+  line-height: 0.1;
   
 }
 
 .henry {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
-  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  line-height: 0.1;
 }
 .ify {
   color: red;
+  font-weight: bold;
+  line-height: 0.1;
 }
 
 
@@ -71,21 +85,31 @@ button:hover {
 }
 
 
-.container {
+ .container {
   background-color: white;
-  width: 100%;
-  height: 250px;
-  padding: 50px;
-  border: 15px;
-  margin-top: 40px;
-}
+   padding-right:  300px; 
+  height: 300px;
+  padding-top: 60px;
+ }
+
 
 .red {
   color: orangered;
+  font-weight: bold;
 }
 
 .let {
   justify-content: center;
+  padding-left: 180px;
 }
 
+.boy{
+  margin-bottom: 36px;
+}
+
+.het {
+  justify-content: center;
+  margin-left: 40px;
+  font-weight: bold;
+}
 
