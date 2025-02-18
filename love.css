@@ -1,32 +1,36 @@
 body {
-  background-color: white;
+  background-color: hsl(30, 38%, 92%);
   color: black;
   padding: 10px;
   font-family: "poppins",sans-serif;
+  ;
   
 }
 
 .food {
-  background-color: white;
+   /* background-color: white; */
   margin-top:  50px;
-  margin-left: 50px; 
+  margin-left: 80px; 
   border-radius: 5px;
-  width: 9500px;
-  height: 900px;
+  width: 700px;
+  height: 920px;
   padding: 10px;
 }
 
 .imagery {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   /* padding-bottom: 50px; */
   /* max-width: 500px; */
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .gold {
   width: 200px;
   height: 175px;
   border-radius: 10px;
   display: block;
+  margin: 0 auto;
 }
 
 
@@ -35,20 +39,20 @@ button {
   bottom: 25px;
   left: 50%;
   transform: translateX(-50%);
-  padding: 5px 12px;
-  border: 2px light red;
+  padding: 8px 15px;
+  border: 2px light solid #E0E0E0;
   background-color: white;
   color: black;
   cursor: pointer;
-  border-radius: 50px;
+  border-radius: 20px;
   font-size: x-small;
   width: 150px;
-  
   justify-content: center;
   align-items: center;
   /* align-content: center; */
   height: 35px;
   font-size: small;
+  gap: 5px;
   
   /* transition: background 0.3s ease, color 0.3s ease; */
 }
@@ -60,36 +64,47 @@ button:hover {
 }
 
 .joy {
-  font-size: small;
+  font-size: 14px;
   /* text-align: left; */
   position: relative;
   line-height: 0.1;
-  
+  font-weight: normal;
 }
 
 .henry {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 16px;
   line-height: 0.1;
+  font-weight: bold;
+  
 }
 .ify {
   color: red;
   font-weight: bold;
   line-height: 0.1;
+  font-size: 18px;
 }
 
 
 .hy {
-  display: flex;
+   display: flex;
 }
 
 
- .container {
+ .cart {
   background-color: white;
-   padding-right:  300px; 
-  height: 300px;
-  padding-top: 60px;
+  height: 260px;
+  width: 290px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  
+  
+ }
+
+ .body {
+  padding: 70px;
+  border-radius: 10px;
  }
 
 
@@ -101,6 +116,9 @@ button:hover {
 .let {
   justify-content: center;
   padding-left: 180px;
+  /* align-content: center;
+  align-items: center;
+  display: flex; */
 }
 
 .boy{
@@ -113,3 +131,19 @@ button:hover {
   font-weight: bold;
 }
 
+.huj {
+  color: red;
+}
+
+.mji {
+  /* max-width: 100%; */
+  /* height: auto; */
+  display: block;
+  margin: 10px auto;  /* Centers image */
+}
+
+.got {
+  font-weight: bold;
+  font-size: xx-large;
+  line-height: 2 ;
+}
